@@ -1,0 +1,10 @@
+java --version
+javac Main.java FirstClass.java SecondClass.java
+jar cf app1.jar Main.class
+jar cf app2.jar FirstClass.class
+jar cf app3.jar SecondClass.class
+java -cp app1.jar Main
+java -cp app2.jar FirstClass
+java -cp app3.jar SecondClass
+
+
